@@ -9,6 +9,26 @@ $fa-font-path: "../webfonts" !default;
 
 @import '~bootstrap/scss/bootstrap';
 
-h1 {
-    color: $text-color;
+
+.container {
+    color: white;
+}
+
+.col-12 {
+    border: 1px solid rgba(255, 255, 255, 0.514);
+    border-bottom: 0;
+
+    &:last-child {
+        border: 1px solid rgba(255, 255, 255, 0.514);
+    }
+}
+
+
+h6,
+h3 {
+    margin: 0;
+}
+
+body {
+    background-color: blue;
 }
